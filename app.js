@@ -19,7 +19,7 @@ app.use(
 
 //configure mongoose
 mongoose.connect(
-  'mongodb://localhost:27017/swagger',
+  'mongodb://127.0.0.1:27017/swagger',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
