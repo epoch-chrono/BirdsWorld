@@ -1,7 +1,10 @@
 const birdService = require("../services/BirdService");
+var StatsD = require('hot-shots');
+var dogstatsd = new StatsD();
 
 exports.getAllBirds = async (req, res) => {
   try {
+    dogstatsd.increment('api.birds.get.count');
     const birds = await birdService.getAllBirds();
     res.json({ data: birds, status: "success" });
   } catch (err) {
@@ -11,6 +14,7 @@ exports.getAllBirds = async (req, res) => {
 
 exports.createBird = async (req, res) => {
   try {
+    dogstatsd.increment('api.birds.post.count');
     const bird = await birdService.createBird(req.body);
     res.json({ data: bird, status: "success" });
   } catch (err) {
