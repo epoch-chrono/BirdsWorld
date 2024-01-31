@@ -1,0 +1,183 @@
+repo_name: epoch-chrono/BirdsWorld
+report_id: f280f3de66c1bf3353e1d4919602e573
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T13:20:17+00:00'
+requested_by: vitor-junior
+provider: github
+branch: main
+detected_tools_count: 13
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Emin Salim
+  last_updated_on: 2022-10-20 09:58:46.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emin Salim
+  last_updated_on: 2022-10-20 09:58:46.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 6.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emin Salim
+  last_updated_on: 2022-10-20 09:58:46.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emin Salim
+  last_updated_on: 2022-10-20 09:58:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emin Salim
+  last_updated_on: 2022-10-20 09:58:46.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Emin Salim
+  last_updated_on: 2022-10-20 09:58:46.000000000 Z
+- name: SuperTest
+  description: 'A library for testing node.js HTTP servers '
+  website_url: https://www.npmjs.com/package/supertest
+  version: 6.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emin Salim
+  last_updated_on: 2022-10-20 09:58:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Emin Salim
+  last_updated_on: 2022-10-20 09:58:46.000000000 Z
+- name: chai-http
+  description: Extend Chai Assertion library with tests for http apis
+  package_url: https://www.npmjs.com/chai-http
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16767/default_aa2369d4412b5a2c6812de3c666299e0ccd25ea2.png
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emin Salim
+  last_updated_on: 2022-10-20 09:58:46.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emin Salim
+  last_updated_on: 2022-10-20 09:58:46.000000000 Z
+- name: should
+  description: Test framework agnostic BDD-style assertions
+  package_url: https://www.npmjs.com/should
+  version: 13.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15871/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/epoch-chrono/BirdsWorld/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emin Salim
+  last_updated_on: 2022-10-20 09:58:46.000000000 Z
