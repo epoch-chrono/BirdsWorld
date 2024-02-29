@@ -2,7 +2,7 @@ repo_name: epoch-chrono/BirdsWorld
 report_id: f280f3de66c1bf3353e1d4919602e573
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-31T13:20:17+00:00'
+timestamp: '2024-02-29T19:46:14+00:00'
 requested_by: vitor-junior
 provider: github
 branch: main
@@ -114,7 +114,7 @@ tools:
   last_updated_by: Emin Salim
   last_updated_on: 2022-10-20 09:58:46.000000000 Z
 - name: SuperTest
-  description: 'A library for testing node.js HTTP servers '
+  description: A library for testing node.js HTTP servers
   website_url: https://www.npmjs.com/package/supertest
   version: 6.3.0
   license: MIT
